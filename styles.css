@@ -1,0 +1,69 @@
+/*
+1. **Posicionamiento** --> static, absolute, relative, fixed.
+2. **Modelo de caja** (*Box model*) --> margin, border, padding, content.
+3. **Tipografía** --> tipos, tamaños de fuente, etc.
+4. **Estilos visuales** --> box-shadow, border-radius, gradient, etc.
+5. **Otros** --> misceláneos, reglas CSS y más.
+*/
+
+:root{
+
+/* flex */
+--d-f-c: display:flex, justify-content:center;
+
+
+/* Colors boxes*/
+--primary: #F7931A;
+--soft-primary: #FFE9D5;
+--secondary:#0C8AFF;
+--soft-secondary:#E7F5FF;
+--background-dark:  #201E1C;
+--background-dark-soft:  #201E1C;
+--background-light: #FAF8F7;
+--background-light-soft: #FFFFFF;
+
+/* Gradient */
+--gradient-main: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+
+
+/* Box shadows */
+--box-shadow-light:0px 4px 8px rgba(88, 72, 29, 0.16);
+--box-shadow-dark: 0px 4px 8px rgba(0, 0, 0, 0.16);
+
+/* standar  pixels*/
+--s: 0.4rem;
+---m: 0.8rem;
+--l: 1.2rem;
+--xl:1.6rem
+
+
+/* Colors fonts */
+--font-primary-ligth:#201E1C;
+--font-secondary-ligth:#757575;
+--font-disable:#BABABA;
+
+--font-primary-dark:#FFFFFF;
+--font-secondary-dark:#FAF8F7;
+
+/* Fonts size */
+--font-mobile-size-h1:2.4rem;
+--font-mobile-weight-h1:700;
+--font-mobile-height-h1:2.6rem;
+
+--font-mobile-size-h2:1.4rem;
+--font-mobile-weight-h2:500;
+--font-mobile-height-h2:1.8rem;
+/* Table */
+--font-table-size-h1:4rem;
+--font-table-weight-h1:700;
+--font-table-height-h1:40.2rem;
+
+--font-table-size-h2:2rem;
+--font-table-weight-h2:500;
+--font-table-height-h2:2.4rem
+
+/* Cards */
+
+
+
+}
