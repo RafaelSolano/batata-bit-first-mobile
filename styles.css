@@ -45,6 +45,10 @@
 --font-primary-dark:#FFFFFF;
 --font-secondary-dark:#FAF8F7;
 
+/* Fonts */
+--font-family-primary: 'DM Sans', sans-serif;
+--font-family-secondary: 'Inter', sans-serif;
+
 /* Fonts size */
 --font-mobile-size-h1:2.4rem;
 --font-mobile-weight-h1:700;
@@ -64,6 +68,25 @@
 
 /* Cards */
 
+}
 
+
+/* Reset styles */
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+/* Reset font-size use REM */
+
+html{
+  font-size: 63.5%;
+  font-family: 'DM Sans', sans-serif;
+  
 
 }

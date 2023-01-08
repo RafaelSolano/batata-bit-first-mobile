@@ -14,3 +14,16 @@ font-family: 'Inter', sans-serif;
 
 
  -->
+
+ convencion pocicion y orden de los stilos
+ /*
+1. **Posicionamiento** --> static, absolute, relative, fixed.
+2. **Modelo de caja** (*Box model*) --> margin, border, padding, content.
+3. **Tipografía** --> tipos, tamaños de fuente, etc.
+4. **Estilos visuales** --> box-shadow, border-radius, gradient, etc.
+5. **Otros** --> misceláneos, reglas CSS y más.
+*/
+
+
+variable
+1. colores
