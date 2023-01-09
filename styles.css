@@ -156,7 +156,7 @@ header >img{
   position: relative;
   bottom: -2.4rem;
 
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: var(--s); 
@@ -465,10 +465,153 @@ main section div:last-child span:last-child{
   line-height: var(--font-mobile-height-h1);
   color: var(--font-primary-dark);
  }
+ /* ----------------------------- section planes ----------------------------- */
+.main-planes{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 100%;
+  min-width: 32rem;
+  height: 50rem;
+
+  text-align: center;
+
+  background-color: var(--background-light);
 
 
+}
+.planes--title{
+  width: 90%;
+
+}
+.planes--title h2{
+  font-size: var(--xxl);
+  font-weight: var(--font-mobile-weight-h1);
+  line-height: var(--font-mobile-height-h1);
+
+}
+.planes--title p{
+  margin-top: var(--xxl);
+  font-size: 1.4rem;
+  font-weight: var(--font-mobile-weight-h2);
+  line-height: var(--font-mobile-height-h2);
+
+}
+.planes-cards--slider{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--m);
+
+}
+.container-cards--arrow-left{
+  position: relative;
+  left: 18rem;
+  transform: rotate(180deg);
+  width: 1.6rem;
+
+}
+  
+.container-cards--arrow-right{
+  position: relative;
+  left: -18rem;
+
+  width: 1.6rem;
+  
+}
+
+.card--planes{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+  width: 19rem;
+  height: auto;
+
+  border-radius: var(--m);
+  background-color: var(--background-light-soft);
+  box-shadow: var(--box-shadow-dark);
+
+}
+.card--planes h3:nth-child(1){
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -1.7rem;
+  width: 101px;
+  height: 31px;
+
+  padding: var(--m);
+  border-radius: var(--m);
+  background-color: var(--primary);
+  box-shadow: var(--box-shadow-dark);
+
+  font-size:var(--l);
+  font-weight: var(--font-mobile-weight-h2);
+  line-height: var(--font-mobile-height-h2);
+  color: var(--font-primary-dark);
+  font-family: var(--font-family-secondary);
+
+}
 
 
+.container-card--txt h2{
+  font-size: 1.4rem;
+  font-weight: var(--font-mobile-weight-h2);
+  line-height: var(--font-mobile-height-h2);
+  
+
+}
+.card--precio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: var(--m);
+  font-family: var(--font-family-secondary);
+
+}
+.card--precio span:nth-child(1){
+  font-size: var(--l);
+  padding-bottom: 2.4rem;
+
+}
+.card--precio span:nth-child(2){
+  font-size: 5.2rem;
+  font-weight: var(--font-mobile-weight-h1);
+  line-height: var(--font-mobile-height-h1);
+
+}
+.container-card--txt p:last-child{
+  color: var(--font-secondary-ligth);
+  margin: var(--xl);
+
+}
+.card--planes button{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--m);
+
+  margin-bottom: var(--xxl);
+  width: 15.1rem;
+  height: 4.8rem;
+
+  background-color: var(--background-light);
+  border: 0.1rem solid var(--primary);
+  border-radius: var(--m);
+  box-shadow: var(--box-shadow-dark);
+
+  font-size: 1.4rem;
+  font-weight: var(--font-mobile-weight-h2);
+  line-height: var(--font-mobile-height-h2);
+
+}
 
 
 
