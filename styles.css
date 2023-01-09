@@ -409,6 +409,8 @@ main section div:last-child span:last-child{
 
   height: 15rem;
 
+  max-width: 40rem;
+
   margin: var(--xl);
   padding: 0 var(--xl);
 
@@ -437,5 +439,39 @@ main section div:last-child span:last-child{
   font-weight: var(--font-mobile-weight-h2);
   line-height: var(--font-mobile-height-h2);
 
+}
+
+
+
+
+
+/* --------------------------------- footer --------------------------------- */
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  min-width: 32rem;
+  height: 15rem;
+  background-color: var(--primary);
+}
+.content-footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 60rem;
+}
+footer ul{
+
+}
+footer ul li a{
+  font-size: var(--xl);
+  font-weight: var(--font-mobile-height-h2);
+  color: var(--background-light);
+  
+}
+footer img{
+  height: 8rem;
 }
 
