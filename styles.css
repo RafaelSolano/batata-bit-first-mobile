@@ -381,13 +381,11 @@ main section div:last-child span:last-child{
 .main-product-cont-txt p{
   margin-top: var(--xxl);
 
-  font-size:var(--l);
+  font-size:var(--xl);
   font-weight: var(--font-mobile-weight-h2);
   line-height: var(--font-mobile-height-h2);
   
 }
-
-
 .product-cards--container{
 
   width: 100%;
@@ -398,9 +396,7 @@ main section div:last-child span:last-child{
   justify-content: center;
 
   margin: var(--xl) var(--l);
-  
-
- 
+   
 }
 
 .product-detail-card{
@@ -423,17 +419,23 @@ main section div:last-child span:last-child{
   
 }
 
-.product-card--icon{
+.product-card--icon {
   width: 2rem;
+  transform: rotate(180deg);
 
 }
+
 
 .product--card-title{
   font-size: var(--xxl);
+  font-weight: var(--font-mobile-weight-h1);
+  line-height: var(--font-mobile-height-h1);
   
 }
 .product--card-body{
-  font-size: var(--xl);
+  font-size:1.4rem ;
+  font-weight: var(--font-mobile-weight-h2);
+  line-height: var(--font-mobile-height-h2);
 
 }
 
