@@ -1,0 +1,9 @@
+.main-product-detail{
+  height: 55rem; 
+}
+.product-cards--container{
+flex-direction: row;
+flex-wrap: wrap;
+height: 32rem;
+
+} 

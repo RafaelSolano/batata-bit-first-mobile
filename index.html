@@ -13,6 +13,8 @@
   <!-- ----------------------------------------------------------------------- -->
   <!-- Styles css -->
   <link rel="stylesheet" href="styles.css">
+
+  <link rel="stylesheet" href="tablet.css" media="(min-width: 930px)">
   <title>Batata Bit</title>
   
 </head>
@@ -49,9 +51,60 @@
     <h2>Visibilizamos todas las tasas de cambio.</h2>
     <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
   </section>
-  
+  <!-- ------------------------------ exchages ------------------------------- -->
   <section>
-    <h2>Monedadas</h2>
+    <h2>Monedas</h2>
+      
+  <div >
+
+    <img src="/assets/icons/next_>.svg" alt="arrow left">
+
+    <table>
+      <tbody>
+        <tr>
+          <td>Bitcoin</td>
+          <td>
+            $ 12.96
+            <img src="/assets/icons/trending-down.svg"  alt="trending- down"> 
+          
+          </td>
+        </tr>
+        <tr>
+          <td>Ethereum</td>
+          <td>$ 13.07 
+            <img src="/assets/icons/trending-up.svg"  alt="trending up">
+          </td>
+        </tr>
+        <tr>
+          <td>Ripple</td>
+          <td>$ 13.15
+            <img src="/assets/icons/trending-down.svg"  alt="trending- down">
+          </td>
+        </tr>
+        <tr>
+          <td>Stellar</td>
+          <td>$ 14.96
+            <img src="/assets/icons/trending-down.svg"  alt="trending- down">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <img src="/assets/icons/next_>.svg" class="arrow" alt="arrow right">
+  </div>
+  
+  <div>
+    <p>
+      <span>Actualizado:   </span>
+      <span> Sun Jan 08 2023</span>
+    </p>
+  </div>
+
+  </section>
+
+  <!-- -------------------------- table comisiones --------------------------- -->
+  <section class="main-container--tableComisiones">
+    <h2>Comisiones</h2>
       
   <div >
 
@@ -99,6 +152,9 @@
   </div>
 
   </section>
+
+
+  
 </main>
 <!-- ----------------------------------------------------------------------- -->
 <!-- ------------------------ section cards article ------------------------ -->
@@ -161,14 +217,14 @@
 <!--     <img class="container-cards--arrow-left" src="/assets/icons/next_>.svg" alt="arrow left">
  -->
     
-  <!-- card pago anual -->
+  <!-- card pago mensual -->
   <article class="card--planes">
-    <h3>Recomendado</h3>
+    <h3>Normal</h3>
     <div class="container-card--txt">
       
-      <h2>1 Pago Anual</h2>
-      <p class="card--precio"> <span>$</span> <span>99</span></p>
-      <p>*Ahorras $129 comparado  al plan mensual.</p>
+      <h2>Mensual</h2>
+      <p class="card--precio"> <span>$</span> <span>19</span></p>
+      <p>Paga 1 vez al mes desde el día de tu compra..</p>
     </div>
     <button>
       Escoger este
@@ -182,7 +238,7 @@
     
     
     <div class="container-card--txt">
-      <h2>2 Pago Anual</h2>
+      <h2>Pago Anual</h2>
       <p class="card--precio"> <span>$</span> <span>99</span></p>
       <p>*Ahorras $129 comparado al plan mensual.</p>
     </div>
@@ -192,15 +248,15 @@
     </button>
   </article>
     
-  <!-- card pago anual -->
+  <!-- card pago lifetime -->
   <article class="card--planes">
-    <h3>Recomendado</h3>
+    <h3>Limitada</h3>
     
     
     <div class="container-card--txt">
-      <h2>3 Pago Anual</h2>
-      <p class="card--precio"> <span>$</span> <span>99</span></p>
-      <p>*Ahorras $129 comparado al plan mensual.</p>
+      <h2>Pago LifeTime </h2>
+      <p class="card--precio"> <span>$</span> <span>199</span></p>
+      <p>Ahorro infinito, pago de por vida (solo 50 cupos)</p>
     </div>
     <button>
       Escoger este

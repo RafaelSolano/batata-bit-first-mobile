@@ -193,7 +193,7 @@ main{
   padding: var(--m);
   
   width: 100%;
-  height: 70rem;
+  height: 90rem;
 
   text-align:center ;
 
@@ -236,7 +236,7 @@ main section:nth-child(3){
   
   align-items: center;
 }
-main section:nth-child(3) h2+div  {
+main section:nth-child(3) h2+div   {
   display: flex;
 
   gap: var(--xxl);
@@ -338,6 +338,122 @@ main section div:last-child span:last-child{
 
 }
 
+/* ---------------------------- table comisiones ---------------------------- */
+.main-container--tableComisiones{
+  margin: var(--xxl);
+  padding-top: var(--xl);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.main-container--tableComisiones h2+div   {
+  display: flex;
+
+  gap: var(--xxl);
+  padding: var(--l);
+  
+  
+}
+
+.main-container--tableComisiones h2{
+  font-size: var(--xxl);
+  font-weight: var(--font-mobile-weight-h1);
+  line-height: var(--font-mobile-height-h1);
+  color: var(--secondary);
+
+}
+
+.main-container--tableComisiones table{
+  width: 20rem;
+  border-collapse: collapse;
+  border-radius: var(--m);
+
+  background-color: var(--background-light-soft);
+  font-family: var(--font-family-secondary);
+
+}
+.main-container--tableComisiones table td{
+  
+  padding: var(--s) var(--l);
+
+}
+
+
+.main-container--tableComisiones table td:first-child{
+  border-right: 2px solid var(--background-light);
+  border-bottom: 2px solid var(--background-light);
+  
+  text-align: start;
+  font-size: var(--xl);
+  font-weight: var(--font-mobile-weight-h2);
+  line-height: var(--xxl);
+
+  color: var(--font-secondary-ligth);
+
+}
+.main-container--tableComisiones table td:last-child{
+  
+  border-left: 2px solid var(--background-light);
+  border-bottom: 2px solid var(--background-light);
+  
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: var(--xl);
+
+  color: var(--font-secondary-ligth);
+  
+}
+
+.main-container--tableComisiones table td:last-child img{
+  transform: rotate(360deg);
+  margin-left: var(--m);
+  
+
+}
+
+.main-container--tableComisiones img:first-child{
+  width: var(--l);
+  transform: rotate(180deg);
+  
+}
+.main-container--tableComisiones img:last-child{
+  width: var(--l);
+  
+}
+
+.main-container--tableComisiones div:last-child{
+
+  width: 20rem;
+  padding: var(--s);
+  align-items: center;
+  border-radius: var(--m);
+  background-color: var(--soft-secondary);
+
+ 
+}
+.main-container--tableComisiones div:last-child p{
+  width: 100%;
+  text-align: center;
+}
+
+.main-container--tableComisiones div:last-child span:first-child{
+  font-size:var(--l) ;
+  font-weight: var(--font-mobile-weight-h1);
+}
+.main-container--tableComisiones div:last-child span:last-child{
+  margin-left: var(--s);
+  font-size:var(--m) ;
+  font-weight: var(--font-mobile-weight-h2);
+
+
+}
+
+  
+
+
+
 /* -------------------------------------------------------------------------- */
 /* ------------------------ seccion de carsd product ------------------------ */
 
@@ -354,7 +470,7 @@ main section div:last-child span:last-child{
   min-width: 32rem;
   height: 92rem;
 
-  margin-top: var(--xxl);
+  
   background: var(--background-dark);
   color: var(--font-primary-dark);
 
@@ -475,7 +591,8 @@ main section div:last-child span:last-child{
   align-items: center;
   width: 100%;
 
-  margin-top: var(--xxl);
+  margin-top: 4rem;
+  margin-bottom: var(--xxl);
   text-align: center;
 
 }
@@ -521,17 +638,10 @@ main section div:last-child span:last-child{
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
+
+  margin-bottom: var(--xxl);
    
 }
-
-@media (min-width: 790px) {
-  .planes-cards--slider{
-    
-    justify-content: center;
-  }
-
-}
-
 
 
 /* cards */
@@ -561,9 +671,10 @@ main section div:last-child span:last-child{
   
 }
 
-.card--planes h3:nth-child(1){
+.card--planes h3{
   display: flex;
   align-items: center;
+  justify-content: center;
   position: relative;
   top: -1.7rem;
   width: 101px;
@@ -577,6 +688,7 @@ main section div:last-child span:last-child{
   font-size:var(--l);
   font-weight: var(--font-mobile-weight-h2);
   line-height: var(--font-mobile-height-h2);
+  text-align: center;
   color: var(--font-primary-dark);
   font-family: var(--font-family-secondary);
 
@@ -683,3 +795,12 @@ footer img{
   height: 8rem;
 }
 
+/* -------------------------------------------------------------------------- */
+/* ------------------------------ medias Querys ----------------------------- */
+@media (min-width: 790px) {
+  .planes-cards--slider{
+    
+    justify-content: center;
+  }
+
+}
