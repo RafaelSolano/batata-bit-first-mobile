@@ -81,6 +81,7 @@
   text-decoration: none;
   list-style: none;
   
+  
 }
 
 /* Reset font-size use REM */
@@ -466,25 +467,16 @@ main section div:last-child span:last-child{
   color: var(--font-primary-dark);
  }
  /* ----------------------------- section planes ----------------------------- */
-.main-planes{
 
+.planes--title{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-
   width: 100%;
-  min-width: 32rem;
-  height: 50rem;
 
+  margin-top: var(--xxl);
   text-align: center;
-
-  background-color: var(--background-light);
-
-
-}
-.planes--title{
-  width: 90%;
 
 }
 .planes--title h2{
@@ -500,13 +492,8 @@ main section div:last-child span:last-child{
   line-height: var(--font-mobile-height-h2);
 
 }
-.planes-cards--slider{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: var(--m);
 
-}
+
 .container-cards--arrow-left{
   position: relative;
   left: 18rem;
@@ -516,6 +503,7 @@ main section div:last-child span:last-child{
 }
   
 .container-cards--arrow-right{
+
   position: relative;
   left: -18rem;
 
@@ -523,20 +511,56 @@ main section div:last-child span:last-child{
   
 }
 
-.card--planes{
+/* container slider scroll  */
+.planes-cards--slider{
+  
+  display: flex;
+  align-items: center;
+  gap: var(--xxl);
+  height: 316px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+   
+}
+
+@media (min-width: 790px) {
+  .planes-cards--slider{
+    
+    justify-content: center;
+  }
+
+}
+
+
+
+/* cards */
+.card--planes{ 
+  
+  
+
+  position: relative;
+  scroll-snap-align: center;
+
   display: flex;
   flex-direction: column;
   justify-content: start;
-  align-items: center;
-
-  width: 19rem;
-  height: auto;
-
+  align-items: center; 
+  
+  width: 70%;
+  min-width: 230px;
+  max-width: 240px;
+  height: 250px;
+  /* margin: 50px auto 0; */
+  padding: 0 15px;
+  background: var(--background-light-soft);
   border-radius: var(--m);
-  background-color: var(--background-light-soft);
-  box-shadow: var(--box-shadow-dark);
+  box-shadow: var(--box-shadow-dark); 
+  
 
+  
 }
+
 .card--planes h3:nth-child(1){
   display: flex;
   align-items: center;
@@ -586,8 +610,22 @@ main section div:last-child span:last-child{
   line-height: var(--font-mobile-height-h1);
 
 }
+.container-card--txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  
+
+}
 .container-card--txt p:last-child{
+  width: 90%;
+  text-align: center;
+  white-space:  normal;
+  
   color: var(--font-secondary-ligth);
+  
   margin: var(--xl);
 
 }
@@ -599,7 +637,7 @@ main section div:last-child span:last-child{
   gap: var(--m);
 
   margin-bottom: var(--xxl);
-  width: 15.1rem;
+  width: 90%;
   height: 4.8rem;
 
   background-color: var(--background-light);
